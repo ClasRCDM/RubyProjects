@@ -1,11 +1,8 @@
 puts "-------------------------------------------"
 puts " | Seja Bem Vindo ao Jogo da Adivinhação | "
 puts "-------------------------------------------"
-puts "\n"
 
-puts "Qual seu nome ?"
-nome = gets
-puts "\n"
+print "\nQual seu nome ? "
+nome = gets.chomp
 
-puts "Seja Bem Vindo"+ nome
-
+puts "Seja Bem Vindo "+ nome
